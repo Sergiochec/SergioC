@@ -16,7 +16,7 @@ void inicio()
 {
     //Instrucciones
     FECHA: 9/05/2025;
-    int continuar2;
+    char continuar2;
     cout << endl;
     cout << "                            ********************************************************************************" << endl;
     cout << "                            *************                 [Instrucciones de uso]                ************" << endl;
@@ -46,12 +46,12 @@ void inicio()
     cout << "Actividad 11 [11]." << endl;
     cout << "Actividad 12 [12]." << endl;
     cout << "Finalizar y Cerrar programa [0]" << endl;
-
+    cout << endl;
 }
 
 void presentacion() {
     FECHA: 9/05/2025;
-    int continuar1;
+    char continuar1;
     cout << "                        /$$$$$$$  /$$                                                   /$$       /$$" << endl;
     cout << "                       | $$__  $$|__/                                                  |__/      | $$" << endl;
     cout << "                       | $$  \\ $$ /$$  /$$$$$$  /$$$$$$$  /$$    /$$ /$$$$$$  /$$$$$$$  /$$  /$$$$$$$  /$$$$$$ " << endl;
